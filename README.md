@@ -33,6 +33,9 @@ cargo run
 
 The project is organized into multiple stages, corresponding to the blog series chapters. Each stage is represented by a separate branch in this repository. To navigate between stages, use the following git commands:
 
+```bash
+git checkout freestanding
+```
 
 ## Contributing
 
@@ -42,10 +45,6 @@ Contributions are welcome! If you find any issues, have suggestions, or want to 
 
 - [Writing an OS in Rust by Philipp Oppermann](https://os.phil-opp.com/)
 - [Rust Programming Language](https://www.rust-lang.org/)
-- 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
