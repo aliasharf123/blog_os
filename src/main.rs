@@ -21,6 +21,12 @@ pub extern "C" fn _start() -> ! {
 
     init();
 
+    // try to access a memory outside our kernel
+    let ptr = 0xdeadbeaf as *mut u8;
+    unsafe {
+        *ptr = 42;
+    }
+
     println!("It did not crash!");
     hlt_loop();
 }
